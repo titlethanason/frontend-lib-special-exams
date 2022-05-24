@@ -36,7 +36,7 @@ const SubmitExamInstructions = () => {
           <Button variant="outline-primary" onClick={continueExam} data-testid="continue-exam-button">
             <FormattedMessage
               id="exam.SubmitExamInstructions.continueButton"
-              defaultMessage="No, I'd like to continue working"
+              defaultMessage="ไม่, ฉันต้องการทำต่อ."
             />
           </Button>
         )}

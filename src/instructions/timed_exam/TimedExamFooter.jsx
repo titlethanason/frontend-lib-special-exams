@@ -6,15 +6,15 @@ const TimedExamFooter = () => (
     <div className="h4">
       <FormattedMessage
         id="exam.startExamInstructions.footerTitle"
-        defaultMessage="Can I request additional time to complete my exam?"
+        defaultMessage="ฉันขอเวลาเพิ่มเติมเพื่อทำข้อสอบของฉันได้หรือไม่?"
       />
     </div>
     <p>
       <FormattedMessage
         id="exam.startExamInstructions.footerText"
-        defaultMessage={'If you have disabilities, '
-        + 'you might be eligible for an additional time allowance on timed exams. '
-        + 'Ask your course team for information about additional time allowances.'}
+        defaultMessage={'หากคุณมีเงื่อนไขความพิการ, '
+        + 'คุณอาจมีสิทธิ์ได้รับวลาเพิ่มเติมในการสอบตามกำหนดเวลา. '
+        + 'สอบถามทีมงานหลักสูตรสำหรับข้อมูลเกี่ยวกับเวลาเพิ่มเติม.'}
       />
     </p>
   </div>

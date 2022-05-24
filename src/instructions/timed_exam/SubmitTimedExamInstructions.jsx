@@ -12,25 +12,25 @@ const SubmitTimedExamInstructions = () => {
       <h3 className="h3" data-testid="exam-instructions-title">
         <FormattedMessage
           id="exam.submitExamInstructions.title"
-          defaultMessage="Are you sure that you want to submit your timed exam?"
+          defaultMessage="คุณแน่ใจหรือไม่ว่าต้องการส่งข้อสอบ?"
         />
       </h3>
       <p>
         <FormattedMessage
           id="exam.submitExamInstructions.warningText"
-          defaultMessage='Make sure that you have selected "Submit" for each problem before you submit your exam.'
+          defaultMessage='ตรวจสอบให้แน่ใจว่าคุณได้กด "ยอมรับ" สำหรับข้อสอบในแต่ละข้อก่อนที่จะส่งข้อสอบ.'
         />
       </p>
       <p>
         <FormattedMessage
           id="exam.submitExamInstructions.text"
-          defaultMessage="After you submit your exam, your exam will be graded."
+          defaultMessage="หลังจากส่งข้อสอบแล้ว ข้อสอบจะถูกให้คะแนน."
         />
       </p>
       <Button variant="primary" onClick={submitExam} className="mr-2" data-testid="end-exam-button">
         <FormattedMessage
           id="exam.submitExamInstructions.submit"
-          defaultMessage="Yes, submit my timed exam."
+          defaultMessage="ใช่, ส่งข้อสอบของฉัน."
         />
       </Button>
     </>
